@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
+import { createID } from "./helpers/index.js";
 import IconNewSpent from "./img/nuevo-gasto.svg";
 import Modal from "./components/Modal";
 import Header from "./components/header";
 import SpendingList from "./components/SpendingList";
-import { createID } from "./helpers/index.js";
 import Filter from "./components/Filter";
 
 function App() {
